@@ -10,7 +10,7 @@ exports.run = (client , message , args)=>{
     },
     title: "Comandos",//Titulo do embed
     //url: "http://google.com",
-    description: "o!ping",//Descrição do embed
+    description: "Meu criador estra trabalhando para trazer cada vez mais novidades",//Descrição do embed
     fields: [{
         name: "o!help",//Titulo
         value: "Ele ira mostrar os meus comandos"//Descrição
