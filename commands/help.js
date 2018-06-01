@@ -21,7 +21,7 @@ exports.run = (client , message , args)=>{
       },
       {
         name: "o!avatar",//Titulo
-        value: "Ele ira mandar seu avatar em forma de link"//Descrição
+        value: "Ele ira mandar seu ou o avatar da pessoa mencionada em forma de link"//Descrição
       },
     ],
     timestamp: new Date(),
