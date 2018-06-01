@@ -23,6 +23,14 @@ exports.run = (client , message , args)=>{
         name: "o!avatar",//Titulo
         value: "Ele ira mandar seu ou o avatar da pessoa mencionada em forma de link"//Descrição
       },
+      {
+        name: "o!serverinfo",//Titulo
+        value: "Ele ira mostrar os dados do servidor"//Descrição
+      },
+      {
+        name: "o!criador",//Titulo
+        value: "Ele ira mostrar o criador do bot e seu(s) contribuidores"//Descrição
+      },
     ],
     timestamp: new Date(),
     footer: {//Rodape do embed
