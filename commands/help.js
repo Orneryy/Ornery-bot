@@ -14,7 +14,15 @@ exports.run = (client , message , args)=>{
     fields: [{
         name: "o!help",//Titulo
         value: "Ele ira mostrar os meus comandos"//Descrição
-      }
+      },
+      {
+        name: "o!convite",//Titulo
+        value: "Me convide para o seu server!"//Descrição
+      },
+      {
+        name: "o!avatar",//Titulo
+        value: "Ele ira mandar seu avatar em forma de link"//Descrição
+      },
     ],
     timestamp: new Date(),
     footer: {//Rodape do embed
