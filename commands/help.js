@@ -12,8 +12,8 @@ exports.run = (client , message , args)=>{
     //url: "http://google.com",
     description: "o!ping",//Descrição do embed
     fields: [{
-        name: "d!help",//Titulo
-        value: "Ele ira mostrar os seus comandos"//Descrição
+        name: "o!help",//Titulo
+        value: "Ele ira mostrar os meus comandos"//Descrição
       }
     ],
     timestamp: new Date(),
