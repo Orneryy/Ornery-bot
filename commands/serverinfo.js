@@ -7,7 +7,7 @@ exports.run = (client ,message , args) =>{
             "timestamp": new Date(),
             "fields":[
             {
-              "name":"Nome do server",//Nome do server
+              "name":"Nome",//Nome do server
               "value":message.guild.name
             },
             {
@@ -19,7 +19,7 @@ exports.run = (client ,message , args) =>{
               "value":message.guild.createdAt
             },
             {
-              "name":"Atualmente possui essa quantidade de membros",
+              "name":"Atualmente possui esta quantidade de membros",
               "value":message.guild.memberCount//Quantidade de membros
             }
             ],
@@ -28,3 +28,8 @@ exports.run = (client ,message , args) =>{
                   "text": message.author.username
       
     }}})
+      
+    
+      
+      
+  }
