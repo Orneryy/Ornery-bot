@@ -35,7 +35,7 @@ exports.run = (client , message , args)=>{
     timestamp: new Date(),
     footer: {//Rodape do embed
       icon_url: client.user.avatarURL,//Icone do bot client=bot
-      text: "©๖̶̶̶ۣۣۜۜ͜ζ͜͡オリリくん (Ornery)#6770"
+      text: "©Ornery#6902"
     }
   }
 })))
